@@ -1,20 +1,20 @@
 # linear gradients
 snippet bagh
-	background-color: ${3:fallback};
-	background-image: -webkit-gradient(linear, left top, right top, from(${1:color1}), to(${2:color2}));
-	background-image: -webkit-linear-gradient(left, $1, $2);
-	background-image:    -moz-linear-gradient(left, $1, $2);
-	background-image:     -ms-linear-gradient(left, $1, $2);
-	background-image:      -o-linear-gradient(left, $1, $2);
-	background-image:         linear-gradient(to right, $1, $2);${4} 
+	background: ${3:fallback};
+	background: -webkit-gradient(linear, left top, right top, from(${1:color1}), to(${2:color2}));
+	background: -webkit-linear-gradient(left, $1, $2);
+	background:    -moz-linear-gradient(left, $1, $2);
+	background:     -ms-linear-gradient(left, $1, $2);
+	background:      -o-linear-gradient(left, $1, $2);
+	background:         linear-gradient(to right, $1, $2);${4} 
 snippet bagv
-	background-color: ${3:fallback};
-	background-image: -webkit-gradient(linear, left top, left bottom, from(${1:color1}), to(${2:color2}));
-	background-image: -webkit-linear-gradient(top, $1, $2);
-	background-image:    -moz-linear-gradient(top, $1, $2);
-	background-image:     -ms-linear-gradient(top, $1, $2);
-	background-image:      -o-linear-gradient(top, $1, $2);
-	background-image:         linear-gradient(to bottom, $1, $2);${4} 
+	background: ${3:fallback};
+	background: -webkit-gradient(linear, left top, left bottom, from(${1:color1}), to(${2:color2}));
+	background: -webkit-linear-gradient(top, $1, $2);
+	background:    -moz-linear-gradient(top, $1, $2);
+	background:     -ms-linear-gradient(top, $1, $2);
+	background:      -o-linear-gradient(top, $1, $2);
+	background:         linear-gradient(to bottom, $1, $2);${4} 
 snippet bor
 	-webkit-border-radius: ${1:value};
 	-moz-border-radius: $1;
